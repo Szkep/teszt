@@ -1,0 +1,298 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: Raleway, sans-serif;
+    background-color: rgb(34, 28, 23);
+}
+
+.githyanki-greatsword {
+    display: inline-block;
+    margin: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.5rem;
+    border: solid 3.5px #7f5932;
+    border-radius: 1rem;
+    box-shadow: 0rem 0rem 1rem .3rem black;
+    width: 50rem;
+    background-image: linear-gradient(rgb(13, 53, 15) 0%, #1e1b18 12%, #1e1b18 88%, #372440);
+    margin-top: 5rem;
+}
+
+.kard {
+    display: flex;
+    position: absolute;
+    height: 25rem;
+    width: 25rem;
+    align-items: center;
+    justify-items: center;
+    margin-left: 22rem;
+    margin-top: 8rem;
+}
+
+.kard2 {
+    height: 25rem;
+    object-fit: cover;
+    transform: rotate(-150deg);
+    padding-top: 10rem;
+    z-index: 1;
+}
+
+.githyanki-greatsword h1{
+    color: #127c2e;
+    margin: 0;
+    padding: 0;
+    padding-bottom: .5rem;
+    font-size: 3rem;
+}
+
+.item-rarity {
+    margin: 0;
+    padding: 0;
+    color: #7f5932;
+    font-size: 1.6rem;
+    padding-bottom: 1.5rem;
+}
+
+.warning {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+
+/* Warning alá tartoznak */
+
+.equipped-by {
+    object-fit: cover;
+    height: 2.5rem;
+    filter: invert(97%) sepia(2%) saturate(211%) hue-rotate(71deg) brightness(83%) contrast(85%);
+}
+
+.equipped-by-name {
+    margin: 0;
+    padding: 0;
+    color: #7f5932;
+    font-size: 1.6rem;
+    padding-left: 1rem;
+}
+
+/* Warning vége */
+
+.damage {
+    margin: 0;
+    font-size: 3rem;
+    color: white; 
+    padding-bottom: 2rem;
+}
+
+.dice-based-damage {
+    display: flex;
+    margin: 0;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.dice {
+    height: 4rem;
+    width: 4.3rem;
+    filter: invert(50%) sepia(21%) saturate(543%) hue-rotate(262deg) brightness(89%) contrast(89%);
+}
+
+.slashing-dmg {
+    margin: 0;
+    color: #767573;
+    font-weight: bolder;
+}
+
+.acid {
+    margin: 0;
+    color: #a6aa0f;
+    font-weight: bolder;
+}
+
+.psychic {
+    margin: 0;
+    color: #836378;
+    font-weight: bolder;
+}
+
+.damage-box {
+    padding-left: 3rem;
+}
+
+hr {
+    position: absolute;
+    width: 49rem;
+    height: 0.0000000000000001rem;
+}
+
+.weapon-description {
+    margin: 0;
+    padding-top: 3rem;
+    color: #958c6c;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.colorb {
+    color: #b8af9a;
+}
+
+.colorc {
+    color: #836378;
+}
+
+.weapon-enchantment {
+    display: flex;
+    align-items: center;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.enchantment-icon {
+    filter: invert(79%) sepia(4%) saturate(413%) hue-rotate(349deg) brightness(96%) contrast(87%);
+    height: 3.8rem;
+}
+
+.enchantment-description {
+    color: #958c6c;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin: 0;
+    padding-left: 1.5rem;
+}
+
+.modifier {
+    color: #8a6c54;
+}
+
+.proficiencies {
+    display: inline-block;
+    margin: 0;
+    margin-top: 3rem;
+}
+
+.proficiency-icon{
+    height: 2rem;
+    filter: invert(79%) sepia(4%) saturate(413%) hue-rotate(349deg) brightness(96%) contrast(87%);
+    margin: 0;
+}
+
+.proficiency-description {
+    color: #b8af9a;
+    font-weight: bolder;
+    padding-left: 1rem;
+    margin: 0;
+    font-size: 1.45rem;
+}
+
+.weapon-abilities {
+    height: 3.5rem;
+    background-color: #612524;
+    padding: 10px;
+    border: 2px solid #000;
+    box-shadow: 0 0 0 4px #4e3f32;
+
+}
+
+.weapon-look {
+    height: 1.5rem;
+    filter: invert(79%) sepia(4%) saturate(413%) hue-rotate(349deg) brightness(96%) contrast(87%);
+}
+
+.icon-bottom {
+    height: 1.8rem;
+    filter: invert(79%) sepia(4%) saturate(413%) hue-rotate(349deg) brightness(96%) contrast(87%);
+}
+
+.asd {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.spell-icons {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 17rem;
+    padding-left: .5rem;
+}
+
+.look {
+    display: flex;
+    margin-bottom: 2rem;
+    padding-left: .2rem;
+}
+
+.weapon-look-description {
+    color: grey;
+    margin: 0;
+    font-size: 1rem;
+    padding-left: 1rem;
+    line-height: 1.5rem;
+}
+
+.asd2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div1 {
+    display: flex;
+    align-items: center;
+}
+
+.GS {
+    margin: 0;
+    color: #b8af9a;
+    font-weight: bolder;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+}
+
+.div2 {
+    display: flex;
+    align-items: center;
+}
+
+.TH {
+    color: #8a6c54;
+    font-weight: bolder;
+    margin: 0;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+}
+
+.weight-sell-price {
+    display: flex;
+    justify-content: end;
+    margin-top: 5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-top: solid .2rem #2c2229;
+}
+
+.worth-icon {
+    height: 1.5rem;
+    padding-left: .5rem;
+    filter: invert(76%) sepia(25%) saturate(439%) hue-rotate(360deg) brightness(99%) contrast(89%);
+}
+
+.worth-icon2 {
+    height: 1.5rem;
+    padding-left: .5rem;
+    filter: invert(85%) sepia(8%) saturate(1110%) hue-rotate(331deg) brightness(87%) contrast(83%);
+}
+
+.worth {
+    padding-left: 1rem;
+    color: white;
+    font-size: 1.3rem;
+    margin: 0;
+}
